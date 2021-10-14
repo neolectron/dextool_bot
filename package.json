@@ -1,0 +1,24 @@
+{
+  "name": "driver-test",
+  "version": "1.0.0",
+  "description": "Auto Book at drivers test site",
+  "main": "driver.js",
+  "scripts": {
+    "test": "driver.js"
+  },
+  "author": "legodocs2",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "follow-redirects": "^1.14.3",
+    "jssoup": "0.0.12",
+    "net": "^1.0.2",
+    "puppeteer": "^10.2.0",
+    "puppeteer-extra": "^3.1.18",
+    "puppeteer-extra-plugin-recaptcha": "^3.4.0",
+    "puppeteer-extra-plugin-stealth": "^2.7.8",
+    "request": "^2.88.2",
+    "sync-request": "^6.1.0",
+    "unirest": "^0.6.0"
+  }
+}

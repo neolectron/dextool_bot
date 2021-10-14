@@ -1,24 +1,20 @@
 {
-  "name": "driver-test",
-  "version": "1.0.0",
-  "description": "Auto Book at drivers test site",
-  "main": "driver.js",
+  "name": "dextoolsbot",
+  "version": "0.1.0",
+  "description": "A DEXTOOLS bot",
   "scripts": {
-    "test": "driver.js"
+    "build": "esbuild bot.ts --platform=node --outfile=build/bot.js",
+    "bundle": "esbuild bot.ts --bundle --platform=node --outfile=bundle/bot_bundle.js",
+    "start": "node build/bot.js",
+    "buildstart": "esbuild bot.ts --platform=node --outfile=build/bot.js && node build/bot.js"
   },
-  "author": "legodocs2",
-  "license": "ISC",
+  "type": "module",
+  "author": "neolectron, satoshiba",
   "dependencies": {
-    "cheerio": "^1.0.0-rc.10",
-    "follow-redirects": "^1.14.3",
-    "jssoup": "0.0.12",
-    "net": "^1.0.2",
+    "dotenv": "^10.0.0",
+    "esbuild": "^0.13.6",
     "puppeteer": "^10.2.0",
     "puppeteer-extra": "^3.1.18",
-    "puppeteer-extra-plugin-recaptcha": "^3.4.0",
-    "puppeteer-extra-plugin-stealth": "^2.7.8",
-    "request": "^2.88.2",
-    "sync-request": "^6.1.0",
-    "unirest": "^0.6.0"
+    "puppeteer-extra-plugin-stealth": "^2.7.8"
   }
 }

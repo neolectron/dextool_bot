@@ -1,8 +1,0 @@
-{
-  "Headless": false,
-  "proxyservice": "http://geo.iproyal.com:12323",
-  "username": "iproyal25252",
-  "password": "suYxc8PI",
-  "url": "https://www.dextools.io/app/ether/pair-explorer/0xa097af648a916ceb96af700d1958c222bfe630ef",
-  "sleep": 15000
-}
